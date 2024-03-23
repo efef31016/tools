@@ -16,6 +16,8 @@ def get_install_commands(package_names):
             else:
                 file.write(f"Package name {package_name} not found.\n")
 
+
+
 if __name__ == "__main__":
-    package_names = ["pandas", "numpy", "requests"]
+    package_names = ["pandas", "numpy", "requests", "beautifulsoup4", "SQLAlchemy", "psycopg2-binary", "redis", "jieba", "pydantic"]
     get_install_commands(package_names)

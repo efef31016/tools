@@ -1,0 +1,9 @@
+pandas==2.2.1
+numpy==1.26.4
+requests==2.31.0
+beautifulsoup4==4.12.3
+SQLAlchemy==2.0.28
+psycopg2-binary==2.9.9
+redis==5.0.3
+jieba==0.42.1
+pydantic==2.6.4
